@@ -1,5 +1,7 @@
 # TopHat Scripting API
 
+## Language: LUA
+
 ## Documentation
 1. [Functions](functions/Functions.md)
 2. Methods
