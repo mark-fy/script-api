@@ -55,7 +55,7 @@ player:setMotionZ(doubleValue)
 ```
 ### Setting the player's onGround value
 ```lua
-player:setGround(doubleValue)
+player:setGround(booleanValue)
 ```
 ### Making the player sprint
 ```lua
