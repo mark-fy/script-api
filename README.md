@@ -12,6 +12,12 @@ function onDisable()
     -- Perform cleanup tasks here
 end
 ```
+### onUpdate
+```lua
+function onUpdate()
+    -- Perform tasks that will run until the script is disabled
+end
+```
 ## Methods
 ### Printing to chat
 ```lua
