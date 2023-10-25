@@ -28,6 +28,6 @@ end
 ### onTick
 ```lua
 function onTick()
-    -- Perform tasks that will run every 20 ticks / 1 second
+    -- Perform tasks that will run every 1 tick / 50 milliseconds
 end
 ```
