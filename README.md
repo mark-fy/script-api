@@ -9,27 +9,63 @@ end
 ### onDisable
 ```lua
 function onDisable()
-    -- Perform simple closing tasks here
+    -- Perform cleanup tasks here
 end
 ```
 ## Methods
-### Chat Methods
+### Printing to chat
 ```lua
-chat:print("message") -- prints to the ingame chat
+chat:print("message")
 ```
-### Player Methods
+### Setting player speed
 ```lua
-player:setSpeed(doubleValue) -- sets the player's speed
-player:setX(doubleValue) -- sets the player's X position
-player:setY(doubleValue) -- sets the player's Y position
-player:setZ(doubleValue) -- sets the player's Z position
-player:setPitch(floatValue) -- sets the player's rotation pitch
-player:setYaw(floatValue) -- sets the player's rotation yaw
-player:setMotionX(doubleValue) --  sets the player motion x value
-player:setMotionY(doubleValue) -- sets the player motion y value
-player:setMotionZ(doubleValue) -- sets the player motion z value
-player:setGround(doubleValue) -- sets the player's onground value
-player:setSprint(booleanValue) -- sets the player sprinting
-player:jump() -- makes the player jump once
-player:swing() -- swings the player's hand once
+player:setSpeed(doubleValue)
+```
+### Setting the player's X position
+```lua
+player:setX(intValue)
+```
+### Setting the player's Y position
+```lua
+player:setY(intValue)
+```
+### Setting the player's Z position
+```lua
+player:setZ(intValue)
+```
+### Setting the player's rotation pitch
+```lua
+player:setPitch(floatValue)
+```
+### Setting the player's rotation yaw
+```lua
+player:setYaw(floatValue)
+```
+### Setting the player's motion X
+```lua
+player:setMotionX(doubleValue)
+```
+### Setting the player's motion Y
+```lua
+player:setMotionY(doubleValue)
+```
+### Setting the player's motion Z
+```lua
+player:setMotionZ(doubleValue)
+```
+### Setting the player's onGround value
+```lua
+player:setGround(doubleValue)
+```
+### Making the player sprint
+```lua
+player:setSprint(booleanValue)
+```
+### Making the player jump
+```lua
+player:jump()
+```
+### Making the player swing it's arm
+```lua
+player:swing()
 ```
