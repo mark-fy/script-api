@@ -1,89 +1,15 @@
 # TopHat Scripting API
-## Functions
-### onEnable
-```lua
-function onEnable()
-    -- Perform initialization tasks here
-end
-```
-### onDisable
-```lua
-function onDisable()
-    -- Perform cleanup tasks here
-end
-```
-### onUpdate
-```lua
-function onUpdate()
-    -- Perform update tasks that will run until the script is disabled
-end
-```
-### onMotion
-```lua
-function onMotion()
-    -- Perform motion tasks that will run until the script is disabled
-end
-```
-### onTick
-```lua
-function onTick()
-    -- Perform tasks that will run every 20 ticks / 1 second
-end
-```
-## Methods
-### Printing to chat
-```lua
-chat:print("message")
-```
-### Setting player speed
-```lua
-player:setSpeed(doubleValue)
-```
-### Setting the player's X position
-```lua
-player:setX(intValue)
-```
-### Setting the player's Y position
-```lua
-player:setY(intValue)
-```
-### Setting the player's Z position
-```lua
-player:setZ(intValue)
-```
-### Setting the player's rotation pitch
-```lua
-player:setPitch(floatValue)
-```
-### Setting the player's rotation yaw
-```lua
-player:setYaw(floatValue)
-```
-### Setting the player's motion X
-```lua
-player:setMotionX(doubleValue)
-```
-### Setting the player's motion Y
-```lua
-player:setMotionY(doubleValue)
-```
-### Setting the player's motion Z
-```lua
-player:setMotionZ(doubleValue)
-```
-### Setting the player's onGround value
-```lua
-player:setGround(booleanValue)
-```
-### Making the player sprint
-```lua
-player:setSprint(booleanValue)
-```
-### Making the player jump
-```lua
-player:jump()
-```
-### Making the player swing it's arm
-```lua
-player:swing()
-```
+
+## Documentation
+1. [Functions](functions/Functions.md)
+2. Methods
+   - [Chat](methods/chat/ChatMethods.md)
+   - [Mouse](methods/mouse/MouseMethods.md)
+   - [Player](methods/player/PlayerMethods.md)
+   - [Packet](methods/packet/PacketMethods.md)
+3. Getters
+   - [Player](getters/player/PlayerGetters.md)
+   - [World](getters/world/WorldGetters.md)
+4. Setters
+   - [Player](setters/player/PlayerSetters.md)
+   - [World](setters/world/WorldSetters.md)
