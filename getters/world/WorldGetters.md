@@ -5,3 +5,8 @@
 ```lua
 world:getGameSpeed()
 ```
+
+### Getting todays date
+```lua
+world:getDate()
+```

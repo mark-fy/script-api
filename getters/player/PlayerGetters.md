@@ -1,6 +1,11 @@
 # TopHat Scripting API
 ## Player Getters
 
+### Checking if the player is moving
+```lua
+player:isMoving()
+```
+
 ### Getting the player's onGround value as a boolean
 ```lua
 player:getGround()
@@ -79,4 +84,34 @@ player:getDead()
 ### Getting the player's fallDistance float value
 ```lua
 player:getFallDistance()
+```
+
+### Getting the player's ticksExisted int value
+```lua
+player:getTicksExisted()
+```
+
+### Checking if the player can climb a wall
+```lua
+player:canClimbWall()
+```
+
+### Checking if the player is on a ladder
+```lua
+player:isOnLadder()
+```
+
+### Checking if the player is in water
+```lua
+player:isInWater()
+```
+
+### Checking if the player is in lava
+```lua
+player:isInLava()
+```
+
+### Checking if the player is immune from fire
+```lua
+player:isImmuneFromFire()
 ```
