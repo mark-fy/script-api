@@ -16,6 +16,11 @@ player:getGround()
 player:getSpeed()
 ```
 
+### Getting the player's blocks per second value as a float
+```lua
+player:getBPS()
+```
+
 ### Getting the player's base speed value as a double
 ```lua
 player:getBaseSpeed()
