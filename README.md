@@ -11,6 +11,7 @@
    - [Packet](methods/packet/PacketMethods.md)
 3. Getters
    - [Player](getters/player/PlayerGetters.md)
+   - [Packet](getters/packet/PacketGetters.md)
    - [World](getters/world/WorldGetters.md)
 4. Setters
    - [Player](setters/player/PlayerSetters.md)
